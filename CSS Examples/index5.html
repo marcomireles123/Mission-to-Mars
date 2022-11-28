@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--This will only change the even paragraphs style-->
+<style>
+    .even {
+        color: blue;
+    }
+</style>
+
+<body>
+    <div>
+        <p>First</p>
+        
+        <!--This one is affected-->
+        <p class="even">Second</p>
+        
+        <p>Third</p>
+    </div>
+
+    <div>
+        
+        <!--This one is affected-->
+        <p class="even">Fourth</p>
+        
+        <p>Fifth</p>
+        
+        <!--This one is affected-->
+        <p class="even">Sixth</p>
+    </div>
+</body>
+
+</html>
